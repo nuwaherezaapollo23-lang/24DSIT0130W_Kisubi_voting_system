@@ -1,0 +1,23 @@
+/kisubi_voting
+│
+├─ include/
+│   ├─ config.php 
+    │ footer.php     
+   └─ header.php
+
+            # Voter-facing pages
+│   ├─ register.php      # Voter registration
+│   ├─ login.php/index.php # Voter login
+│   ├─ vote.php          # Vote selection page
+│   ├─ process_vote.php  # Vote processing
+│   ├─ vote_success.php  # Post-voting success message
+│   ├─ results.php       # Display voting results
+│   └─ logout.php        # Voter logout
+│
+├─ admin/                               # Admin-facing pages
+│   ├─ admin-register.php               # Admin registration
+│   ├─ admin-login.php/index.php        # Admin login
+│   ├─ voters.php                       # Manage voters (view/edit/delete)
+│   ├─ candidates.php                   # Manage candidates
+│   ├─ positions.php                    # Manage positions
+│   └─ logout.php                       # Admin logout

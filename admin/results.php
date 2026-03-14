@@ -1,8 +1,8 @@
 <?php
 session_start();
 if(!isset($_SESSION['admin_id'])) header("Location: index.php");
-include 'include/header.php';
-include 'include/config.php';
+include '../include/header.php'; 
+include '../include/config.php';
 
 // Fetch positions
 $positions_result = mysqli_query($con, "SELECT * FROM positions");
